@@ -1,132 +1,69 @@
-<html>
+---
+layout: default
+title: Hafen Innovation
+---
 
-<head>
-  <link href="lib/bootstrap.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hafen Innovation</title>
+<h1>Herzlich Willkommen</h1>
 
-  <!-- Basic favicon configuration -->
-  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48.png">
-
-  <!-- SVG favicon for modern browsers -->
-  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
-</head>
+<p>Mein name ist Samuel Hafen. Ich arbeite an innovativen Lösungen für Lichtsteuerungen.</p>
 
 
+<!-- Card Shelf -->
+<div class="container-fluid">
+  <div class="row g-3 justify-content-center">
 
-<body style="background-color: #b8e6a1;" class="min-vh-100 position-relative">
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card mb-3 overflow-hidden">
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand shadow d-print-none" style="background-color:#5a8840;">
-    <div class="container-fluid">
+        <img src="/trance/usb-dmx.jpg" class="img-fluid" alt="...">
 
-      <a class="navbar-brand" href="/">
-        <img src="logo.svg" alt="Hafen Innovation Logo" height="50">
-      </a>
+        <div class="card-body">
+          <h5 class="card-title">TRANCE</h5>
+          <p class="card-text stretched-link">Adapter für Lichtsteuerung über WLAN per Artnet.</p>
 
-      <!-- Currently unused
-      <div class="navbar">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-
-          
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          
-
+          <a href="/trance/" class="d-none d-print-block">https://hafen-innovation.ch/trance/</a>
+          <a href="/trance/" class="btn btn-primary stretched-link d-print-none">Mehr erfahren</a>
         </div>
-      </div>
-      -->
-
-    </div>
-  </nav>
-
-  <!-- Content -->
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-8 p-4">
-        <h1>Herzlich Willkommen</h1>
-
-        <p>Mein name ist Samuel Hafen. Ich arbeite an innovativen Lösungen für Lichtsteuerungen.</p>
-
-
-        <!-- Card Shelf -->
-        <div class="container-fluid">
-          <div class="row g-3 justify-content-center">
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="card mb-3 overflow-hidden" >
-
-                <img src="trance/usb-dmx.jpg" class="img-fluid" alt="...">
-
-                <div class="card-body">
-                  <h5 class="card-title">TRANCE</h5>
-                  <p class="card-text stretched-link">Adapter für Lichtsteuerung über WLAN per Artnet.</p>
-
-                  <a href="trance.html" class="d-none d-print-block">https://hafen-innovation.ch/trance.html</a>
-                  <a href="trance.html" class="btn btn-primary stretched-link d-print-none">Mehr erfahren</a>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="card mb-3 overflow-hidden">
-
-                <img src="artman.png" class="img-fluid" alt="...">
-
-
-                <div class="card-body">
-                  <h5 class="card-title">Artman</h5>
-                  <p class="card-text">Lichtanlagen innovativ über LAN managen und kontrollieren.</p>
-
-                  <a href="artman.html" class="d-none d-print-block">https://hafen-innovation.ch/artman.html</a>
-                  <a href="artman.html" class="btn btn-primary stretched-link d-print-none">Mehr erfahren</a>
-                </div>
-                
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-
-        <br/>
-        <br/>
-
 
       </div>
     </div>
+
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card mb-3 overflow-hidden">
+
+        <img src="/artman/artman.png" class="img-fluid" alt="...">
+
+
+        <div class="card-body">
+          <h5 class="card-title">Artman</h5>
+          <p class="card-text">Lichtanlagen innovativ über LAN managen und kontrollieren.</p>
+
+          <a href="/artman/" class="d-none d-print-block">https://hafen-innovation.ch/artman/</a>
+          <a href="/artman/" class="btn btn-primary stretched-link d-print-none">Mehr erfahren</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card mb-3 overflow-hidden">
+
+        <img src="" class="img-fluid" alt="...">
+
+
+        <div class="card-body">
+          <h5 class="card-title">Artnet Parser</h5>
+          <p class="card-text">Artnet daten einfach in rust verarbeiten.</p>
+
+          <a href="/artnet-parser/" class="d-none d-print-block">https://hafen-innovation.ch/artnet-parser/</a>
+          <a href="/artnet-parser/" class="btn btn-primary stretched-link d-print-none">Mehr erfahren</a>
+        </div>
+
+      </div>
+    </div>
+
   </div>
+</div>
 
 
-  <!-- Notices on Website -->
-  <nav class="navbar navbar-expand d-print-none shadow position-absolute bottom-0 w-100" style="background-color:#7da06a;">
-    <div class="container-fluid">
-
-      <a>This website is licensed under the MIT license</a>
-      
-
-    </div>
-  </nav>
-
-  <!-- Notices on Print medium -->
-  <nav class="navbar navbar-expand d-none d-print-block position-absolute bottom-0 w-100" style="background-color:#7da06a;">
-    <div class="container-fluid">
-
-      <a>This file is licensed under the MIT license</a>
-      
-
-    </div>
-  </nav>
-
-
-</body>
-
-<script src="lib/bootstrap.bundle.min.js"></script>
-
-</html>
+<br />
+<br />

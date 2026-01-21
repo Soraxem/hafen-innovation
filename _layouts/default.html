@@ -1,0 +1,82 @@
+<html>
+
+<head>
+  <link href="/lib/bootstrap.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hafen Innovation</title>
+
+  <!-- Basic favicon configuration -->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48.png">
+
+  <!-- SVG favicon for modern browsers -->
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+</head>
+
+
+
+  
+
+<body style="background-color: #b8e6a1;" class="min-vh-100 position-relative">
+
+  <table style="width: 100%;">
+
+    <thead>
+      <tr>
+        <td class="p-0">
+          {% include navbar.html -%}
+        </td>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="p-0">
+          <div class="container-fluid">
+
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-8 p-3">
+
+                {{ content }}
+
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+
+    <tfoot class="position-absolute bottom-0 w-100">
+      <tr>
+        <td class="p-0">
+          <!-- Licence notice on Website -->
+          <nav class="navbar navbar-expand d-print-none shadow position-absolute bottom-0 w-100"
+            style="background-color:#7da06a;">
+            <div class="container-fluid">
+              <a>This website is licensed under the MIT license</a>
+            </div>
+          </nav>
+
+          <!-- License notice on Print medium -->
+          <nav class="navbar d-none d-print-block w-100"
+            style="background-color:#7da06a;">
+            <div class="container-fluid">
+              <a>This file is licensed under the MIT license</a>
+            </div>
+          </nav>
+        </td>
+      </tr>
+    </tfoot>
+
+  
+  </table>
+
+</body>
+
+
+
+<script src="lib/bootstrap.bundle.min.js"></script>
+
+</html>
